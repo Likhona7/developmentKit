@@ -1,5 +1,5 @@
 export default function getBaseUrl() {
-  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3000/' : '/';
+  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3000/' : 'https://warm-crag-65260.herokuapp.com/';
 }
 
 function getQueryStringParameterByName(name, url) {
